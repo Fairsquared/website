@@ -521,4 +521,20 @@ header {
 }
 
 }
-
+.home-icons-div {
+ margin-top: 10px;   
+}
+.home-icons {
+    width: 200px;
+    height: auto;
+    padding-left: 30px;
+    opacity: 0.7;
+    transition: opacity 500ms ease-in-out;
+    -moz-transition: opacity 500ms ease-in-out;
+    -webkit-transition: opacity 500ms ease-in-out;
+    -ms-transition: opacity 500ms ease-in-out;
+    -o-transition: opacity 500ms ease-in-out;
+}
+.home-icons:hover {
+    opacity: 1;
+}
