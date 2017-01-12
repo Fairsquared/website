@@ -46,54 +46,11 @@
     </header>
     <div class="hero-image-contact"> </div>
     <div class="main">
-        <?php 
-				$action=$_REQUEST['action']; 
-				if ($action=="")
-				{ 
-			?>
             <form action="" method="POST" enctype="multipart/form-data">
-                <p>If you have any question about the event or any concern with our sponsors, please let us know through the form below. We'll try to reply as quickly as possible.</p>
-                <p>If you'd rather write an email to better keep track of your correspondence, write at <a href="mailto:contact@fair-squared.org" title="In regards to Fair&#178;">contact@fair-squared.org</a>.</p>
-                <input type="hidden" name="action" value="submit">
-                <input name="name" type="text" value="" size="30" placeholder="First and last name" />
-                <br>
-                <input name="email" type="text" value="" size="30" placeholder="Email" />
-                <br>
-                <input name="phone" type="text" value="" size="30" placeholder="Phone" />
-                <br>
-                <input name="subject" type="text" value="" size="30" placeholder="Subject" />
-                <br>
-                <textarea name="message" rows="7" cols="30" placeholder="Message"></textarea>
-                <br>
-                <input type="submit" value="Send" /> </form>
-            <!-- <?php 
-				    }  
-				else 
-				    { 
-				    $name=$_REQUEST['name'];
-				    $email=$_REQUEST['email'];
-				    $phone=$_REQUEST['phone'];
-				    $subject=$_REQUEST['subject'];
-				    $message=$_REQUEST['message']; 
-				    if (($name=="")||($email=="")||($phone=="")||($message=="")) 
-				        { 
-				        echo "<p>All fields are required, please fill the form again.</p>"; 
-				        } 
-				    else{         
-				        $from="From: $name<$email>\r\nReturn-path: $email";  
-				        $subject="$subject"; 
-				        mail("contact@fair-squared.org", $subject, 
-				"$message 
-
-				From: 	$name
-
-				Phonenumber: 	$phone
-
-				Email:		$email", $from);
-				        echo "<p>Email sent!</p>"; 
-				        } 
-				    }   
-			?> -->
+                <p>If you have any question about the event or any concern with our sponsors, please let us know. We'll try to reply as quickly as possible.</p>
+                <p>Write an email  at <a href="mailto:contact@fair-squared.org" title="In regards to Fair&#178;">contact@fair-squared.org</a> or get ahold of us on our <a href="whatever.facebook.com">Facebook page</a>.</p>
+                </form>
+           
     </div>
     </div>
     <footer>
